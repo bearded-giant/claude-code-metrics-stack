@@ -29,6 +29,9 @@ exporters:
     namespace: ""
     send_timestamps: true
     enable_open_metrics: true
+    metric_expiration: 168h
+    resource_to_telemetry_conversion:
+      enabled: true
 
   # Export logs/events to Loki via OTLP
   otlphttp/loki:
