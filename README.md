@@ -64,7 +64,6 @@ source ~/.zshrc
 | `claude_code.token.usage` | Tokens consumed (input/output/cache) |
 | `claude_code.lines_of_code.count` | Lines added/removed |
 | `claude_code.commit.count` | Git commits created |
-| `claude_code.pull_request.count` | PRs created |
 | `claude_code.code_edit_tool.decision` | Tool accept/reject decisions |
 
 ## Event Logs (Loki)
